@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+class ${1:ClassName}
+  include PageObject
+
+  ${2://Locators}
+
+  def ${3:method_name}(data = {})
+    ${4://Body}
+  end
+end
+]]></content>
+	<tabTrigger>po.class</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: Class</description>
+</snippet>

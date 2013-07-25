@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ordered_list(:${1:Object}, :${2:Locator} => '${3:Value}')
+]]></content>
+	<tabTrigger>po.ol</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: OrderedList</description>
+</snippet>

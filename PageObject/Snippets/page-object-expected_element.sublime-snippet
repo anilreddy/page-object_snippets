@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+expected_element(:${1:address}, ${2:10})
+page.has_expected_element?
+]]></content>
+	<tabTrigger>po.ee</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: ExpectedElement</description>
+</snippet>

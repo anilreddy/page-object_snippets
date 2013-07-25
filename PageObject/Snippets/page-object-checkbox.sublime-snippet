@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+checkbox(:${1:Object}, :${2:Locator} => '${3:Value}')
+]]></content>
+	<tabTrigger>po.cb</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: CheckBox</description>
+</snippet>

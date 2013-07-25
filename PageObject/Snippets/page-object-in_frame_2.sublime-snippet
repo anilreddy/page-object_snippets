@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+in_frame(:${1:Locator}, '${2:Value}') do |frame|
+	in_frame({:${3:Locator}, '${4:Value}'}, frame) do |frame|
+		${5:text_field}(:${6:Object}, :${7:Locator} => '${8:Value}', :frame => frame)
+	end
+end
+]]></content>
+	<tabTrigger>po.if2</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: InFrame2</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+expected_title "${1:title}"
+page.has_expected_title?
+]]></content>
+	<tabTrigger>po.et</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: ExpectedTitle</description>
+</snippet>

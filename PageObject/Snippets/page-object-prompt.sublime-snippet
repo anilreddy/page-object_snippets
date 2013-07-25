@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+result = ${1:@page}.prompt("${2:Cheese}") do
+	${1:@page}.${3:button_that_causes_the_prompt}
+end
+result[:message].should == "${4:What do you like?}"
+]]></content>
+	<tabTrigger>po.pt</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: Prompt</description>
+</snippet>

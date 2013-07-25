@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+file_field(:${1:Object}, :${2:Locator} => '${3:Value}')
+]]></content>
+	<tabTrigger>po.ff</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: FileField</description>
+</snippet>

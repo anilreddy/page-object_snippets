@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+list_item(:${1:Object}, :${2:Locator} => '${3:Value}')
+]]></content>
+	<tabTrigger>po.li</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: ListItem</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:@page}.${2:continue}_element.when_visible do
+  ${1:@page}.${2:continue}
+end
+]]></content>
+	<tabTrigger>po.wv</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: WhenVisible</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+image(:${1:Object}, :${2:Locator} => '${3:Value}')
+]]></content>
+	<tabTrigger>po.im</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: Image</description>
+</snippet>

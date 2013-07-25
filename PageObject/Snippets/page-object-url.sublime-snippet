@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+page_url '${1:url}'
+]]></content>
+	<tabTrigger>po.url</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: URL</description>
+</snippet>

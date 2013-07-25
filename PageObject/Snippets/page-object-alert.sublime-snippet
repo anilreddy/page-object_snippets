@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+message = ${1:@page}.alert do
+	${1:@page}.${2:button_that_causes_the_alert}
+end
+message.should == "${3:Text from the alert popup}"
+]]></content>
+	<tabTrigger>po.al</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: Alert</description>
+</snippet>

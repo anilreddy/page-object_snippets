@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+message = ${1:@page}.confirm(${2:true}) do
+	${1:@page}.${3:button_that_causes_the_confirm}
+end
+message.should == "${4:Text from the confirm popup}"
+]]></content>
+	<tabTrigger>po.cf</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: Confirm</description>
+</snippet>

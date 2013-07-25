@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:@page}.wait_until(${2:5}, '${3:Success not found on page}') do
+  ${1:@page}.text.include? '${4:Success}'
+end
+]]></content>
+	<tabTrigger>po.wu</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: WaitUntil</description>
+</snippet>

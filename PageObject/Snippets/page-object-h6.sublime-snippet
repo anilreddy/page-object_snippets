@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+h6(:${1:Object}, :${2:Locator} => '${3:Value}')
+]]></content>
+	<tabTrigger>po.h6</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: H6</description>
+</snippet>

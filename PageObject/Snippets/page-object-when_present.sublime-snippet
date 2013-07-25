@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:@page}.${2:continue}_element.when_present do
+  ${1:@page}.${2:continue}
+end
+]]></content>
+	<tabTrigger>po.wp</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: WhenPresent</description>
+</snippet>

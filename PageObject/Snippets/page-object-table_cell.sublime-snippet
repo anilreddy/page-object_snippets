@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+cell(:${1:Object}, :${2:Locator} => '${3:Value}')
+]]></content>
+	<tabTrigger>po.c</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: TableCell</description>
+</snippet>
