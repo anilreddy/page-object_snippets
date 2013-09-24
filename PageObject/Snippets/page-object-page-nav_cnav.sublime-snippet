@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+  continue_navigate_to(${1:ClassName} :using => ${2:RouteName}).${3:MethodName}
+]]></content>
+	<tabTrigger>po.cnu</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Navigation: Step Definition Continue Navigation using</description>
+</snippet>
