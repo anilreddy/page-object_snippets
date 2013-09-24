@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+  navigate_to(${1:ClassName} :using => ${2:RouteName}).${3:MethodName}
+]]></content>
+	<tabTrigger>po.ntu</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Navigation: Step Definition Navigate to using</description>
+</snippet>
