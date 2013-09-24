@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+    [${1:ClassName}, :${2:method_name}],
+]]></content>
+	<tabTrigger>po.routes_c</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: Navigation Routes Steps</description>
+</snippet>
