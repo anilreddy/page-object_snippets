@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+  visit(${1:ClassName})
+]]></content>
+	<tabTrigger>po.v</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Navigation: Step Definition Visit</description>
+</snippet>
