@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+PageObject::PageFactory.routes = {
+    :default => [[${1:ClassName}, :${2:method_name}],
+                [${3:ClassName}, :${4:method_name}]]
+}
+]]></content>
+	<tabTrigger>po.routes</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Object: Navigation Routes(Default)</description>
+</snippet>
