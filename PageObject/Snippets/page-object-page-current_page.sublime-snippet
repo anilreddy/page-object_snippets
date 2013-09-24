@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+  @current_page.text.include? ${1:message}
+]]></content>
+	<tabTrigger>po.cpt</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Navigation: Current Page Text</description>
+</snippet>
