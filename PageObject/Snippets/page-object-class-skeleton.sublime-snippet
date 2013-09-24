@@ -2,11 +2,12 @@
 	<content><![CDATA[
 class ${1:ClassName}
   include PageObject
-
+  include DataMagic
+  
   ${2:#Locators}
 
-  def ${3:method_name}(data = {})
-    ${4:#Body}
+  def ${3:method_name}(${4:data = {}})
+    ${5:#Body}
   end
 end
 ]]></content>
