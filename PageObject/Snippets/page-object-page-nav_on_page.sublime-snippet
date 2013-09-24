@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+on_page ${1:MyPageObject} do |page|
+  page.${2:name}.should == '${3:Sample}'
+end
+]]></content>
+	<tabTrigger>po.op</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Page-Navigation: Step Definition On Page</description>
+</snippet>
